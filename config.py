@@ -23,16 +23,16 @@ API_ID = int(os.environ.get("API_ID", "32171302"))
 API_HASH = os.environ.get("API_HASH", "3d8230dfafb026f1f55938abeacdd613")
 
 # Your Owner / Admin Id For Broadcast 
-ADMINS = int(os.environ.get("ADMINS", "63367"))
+ADMINS = int(os.environ.get("ADMINS", "6337"))
 
 # Your Channel Id In Which Bot Upload Downloaded Video/File/Message etc.
 # And Make Your Bot Admin In this channel with full rights.
 # if you don't want to upload in channel then leave it blank don't fill anything.
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "524777")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "52477")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://nwebz2025_db_user:IKvIi0xJbpcaq8eE@cluster0.zzee2ep.mongodb.net/?appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "nwebz2025_db_user")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
